@@ -1,0 +1,9 @@
+{
+  "name": "usage-band",
+  "version": "0.3.0",
+  "description": "輸入框上方顯示 5h/7d 額度、重置倒數、token 與花費",
+  "author": {
+    "name": "michael kuo"
+  },
+  "types": "./types/index.d.ts"
+}

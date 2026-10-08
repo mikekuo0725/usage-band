@@ -1,0 +1,12 @@
+{
+  "name": "michael-mods",
+  "owner": { "name": "郭哲宏" },
+  "metadata": { "description": "我自己的 Claude Code mods" },
+  "plugins": [
+    {
+      "name": "usage-band",
+      "source": "./usage-band",
+      "description": "輸入框上方顯示 5h/7d 額度、重置倒數、token 與花費"
+    }
+  ]
+}
