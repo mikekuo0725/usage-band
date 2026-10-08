@@ -1,4 +1,4 @@
-# michael-mods
+# usage-band
 
 My own Claude Code mods.
 
@@ -17,13 +17,13 @@ Shows your 5h / 7d usage, reset countdown, tokens and cost above the prompt box.
 ## Install
 
 ```
-claude plugin marketplace add mikekuo0725/michael-mods
-claude plugin install usage-band@michael-mods
+claude plugin marketplace add mikekuo0725/usage-band
+claude plugin install usage-band@usage-band
 ```
 
 ---
 
-# michael-mods（中文）
+# usage-band（中文）
 
 我自己做的 Claude Code mod。
 
@@ -42,6 +42,6 @@ claude plugin install usage-band@michael-mods
 ## 安裝
 
 ```
-claude plugin marketplace add mikekuo0725/michael-mods
-claude plugin install usage-band@michael-mods
+claude plugin marketplace add mikekuo0725/usage-band
+claude plugin install usage-band@usage-band
 ```
