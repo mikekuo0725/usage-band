@@ -1,12 +1,21 @@
 {
   "name": "usage-band",
-  "owner": { "name": "郭哲宏" },
-  "metadata": { "description": "我自己的 Claude Code mods" },
+  "owner": {
+    "name": "郭哲宏"
+  },
+  "metadata": {
+    "description": "我自己的 Claude Code mods"
+  },
   "plugins": [
     {
       "name": "usage-band",
       "source": "./usage-band",
       "description": "輸入框上方顯示 5h/7d 額度、重置倒數、token 與花費"
+    },
+    {
+      "name": "pixel-helpers",
+      "source": "./pixel-helpers",
+      "description": "派小幫手時，右邊面板用像素小人顯示每位小幫手的名字、任務和已工作多久"
     }
   ]
 }

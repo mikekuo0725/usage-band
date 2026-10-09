@@ -1,0 +1,8 @@
+{
+  "name": "pixel-helpers",
+  "version": "0.3.0",
+  "description": "派小幫手時，右邊面板顯示像素辦公室，員工小人會隨機打字、講電話、衝去影印，並顯示每位小幫手的名字、任務和已工作多久",
+  "author": { "name": "michael kuo" },
+  "types": "./types/index.d.ts"
+}
+
