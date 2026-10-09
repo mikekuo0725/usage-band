@@ -4,7 +4,7 @@
     "name": "郭哲宏"
   },
   "metadata": {
-    "description": "我自己的 Claude Code mods"
+    "description": "Claude Code 外掛集：為介面加入即時狀態顯示"
   },
   "plugins": [
     {

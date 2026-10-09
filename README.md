@@ -1,18 +1,18 @@
 # usage-band
 
-My own Claude Code mods.
+A collection of Claude Code plugins (mods) that add live status displays to the interface.
 
 ## usage-band
 
-Shows your 5h / 7d usage, reset countdown, tokens and cost above the prompt box.
+Displays session usage above the prompt: 5-hour and 7-day rate-limit consumption with reset countdowns, token counts, and session cost.
 
 ![usage-band](usage-band/docs/images/usage-band.png)
 
-- **Top line**: how full the context is, plus a small chart of recent turns
-- **5h / 7d**: usage % and time until it resets
-- **↑ / ↓**: input / output tokens this session
+- **Context line**: context window utilization, with a trend chart of recent turns
+- **5h / 7d**: rate-limit utilization and time remaining until reset
+- **↑ / ↓**: input and output tokens for the current session
 - **≈**: cached tokens
-- **$**: cost this session
+- **$**: accumulated cost for the current session
 
 ## pixel-helpers
 
@@ -36,19 +36,19 @@ claude plugin install pixel-helpers@usage-band
 
 # usage-band（中文）
 
-我自己做的 Claude Code mod。
+本專案收錄 Claude Code 外掛（mod），為介面加入即時狀態顯示。
 
 ## usage-band
 
-在輸入框上方顯示 5 小時 / 7 天額度、重置倒數、token 用量和花費。
+於輸入框上方即時顯示本次工作階段的用量資訊，包括 5 小時與 7 天額度使用率、重置倒數、token 用量及花費。
 
 ![usage-band](usage-band/docs/images/usage-band.png)
 
-- **第一行**：對話記憶用了多少，加上最近幾輪的小圖表
-- **5h / 7d**：額度用了幾 %，還有多久重置
-- **↑ / ↓**：這次對話送出 / 收到的 token
-- **≈**：快取的 token
-- **$**：這次對話花了多少錢
+- **上下文列**：上下文視窗使用率，並以趨勢圖呈現最近幾輪的變化
+- **5h / 7d**：額度使用率及距離重置的剩餘時間
+- **↑ / ↓**：本次工作階段的輸入與輸出 token 數
+- **≈**：快取 token 數
+- **$**：本次工作階段的累計花費
 
 ## pixel-helpers
 
